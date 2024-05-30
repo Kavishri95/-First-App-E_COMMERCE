@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    padding:0;
+    min-height: 100px;
+    min-width: 100px;
+    box-sizing:border-box;
+    font-family: 'Cambria, Cochin, Georgia, Times, 'Times New Roman', serif';
+    background-color: rgba(228, 228, 228, 0.982);
+    overflow-x: hidden;
+   
+   
+}
+/* navbar */
+.navbar{   
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 1px;
+    height:100px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar ul li{
+    padding: 5px 10px;
+    display: inline-block;
+    position:relative;
+}
+
+.navbar ul li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.navbar ul li a:hover{
+    background-color: whitesmoke;
+}
+#header #cart{
+    position:relative; 
+    bottom:10px;
+}
+#header #logo{
+   position: relative;
+   bottom:10px;
+}
+
+/* mylogo */
+#mylogo img{
+      padding-left: 46%;
+      position: relative;
+      bottom: 25px;
+    
+}
+
+form{
+    border:1px solid white;
+    
+    background-color: whitesmoke;
+    /* padding-left:70px;
+    margin:0 800px 0 400px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:70vh;
+    width: 400px;
+    margin-left: 530px;
+}
+form input{
+    border: 1px solid rgb(207, 206, 206);
+    border-radius: 10px;
+    /* color:rgb(245, 245, 245) ; */
+    padding: 10px;
+    margin:10px;
+    width:250px;
+}
+form #text{
+    border:1px solid red;
+    height:20px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: orangered;
+
+}
+form button{
+
+    background-color: yellow ;
+    text-align: center;
+    font-size: 18px;
+    width:265px;
+    height:40px;
+    margin-top: 20px;
+    /* font-weight:bold; */
+    color: black;
+}
+form #text2:hover{
+    color: black;
+}
+form p a{
+    text-decoration: none;
+    color: black;
+     padding: 8px;
+     margin: 5px;
+     border: none;
+}
+
+form input #texta:hover{
+    color:black;
+}
+input[name=text]{
+    color: black;
+}
+
+/* footer styling starts */ 
+footer {
+    background-color: rgb(198, 197, 197);
+    position: relative;
+    top: 80px;
+    width:100%;
+    padding: 10px;       
+}
+footer h2{
+    text-align: center;
+    font-weight: normal;
+    font-size: 28px;
+}
+.container{
+    max-width: 1000px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+ }
+.col{
+   
+    min-width:160px;
+    padding:0 10px;
+}
+.col ul li{
+    text-decoration:none;
+    list-style-type: none;
+    padding: 5px;
+}
+.col ul{
+    min-width:250px;
+}
+.col .logo{
+    position: relative;
+    right: 110px;    
+  
+}
+.col p{
+    display: flex;
+    position: relative;
+    bottom: 60px;
+} 

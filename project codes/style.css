@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: rgba(238, 238, 238, 0.982);
+   
+}
+/* navbar */
+.navbar{   
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar ul li{
+    padding: 10px 5px;
+    position:relative;
+}
+
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.navbar ul li a:hover{
+    background-color: whitesmoke;
+}
+.navbar{
+    height:100px;
+    background: linear-gradient(to right,rgb(214, 232, 241)0%,rgb(214, 232, 241)50%,rgb(209, 231, 240)50%,rgb(126, 205, 236)100%);
+}
+/* main image */
+
+.main{   
+    background: linear-gradient(to right,rgb(214, 232, 241)0%,rgb(214, 232, 241)50%,rgb(209, 231, 240)50%,rgb(126, 205, 236)100%);
+}
+
+.main img{
+    position: relative;
+    left: 500px;
+}
+.main .content{
+    position: relative;
+    bottom: 300px;
+    left: 100px;
+}
+.content h2{
+    font-size: 30px;
+    font-style: normal;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.content #one{
+    font-size: 15px;
+}
+.content #two{
+    font-size: 20px;
+}
+
+.content button{
+    color:white;
+    background-color: black;
+    border-radius: 20px;
+    width: 90px;
+    padding: 5px;
+
+}
+.navbar #header{
+    margin-top: 0px;
+}
+
+.dot div{
+    /* border:1px solid black; */
+    height: 5px;
+    width: 5px;
+    border-radius:50% ;
+    background-color: grey;
+    display: inline-block;
+    margin:5px; 
+}
+
+.dot #first{
+    background-color: black;
+}
+
+.dot{
+     margin-left: 40%;
+    margin-top: 10px;
+}
+.headings {
+    font-size: 18px;
+    color: grey;
+    text-align: center;   
+}
+    
+.headings #firstone{
+    color: black;
+}
+
+h6{
+    display: inline-block;
+    width:120px; 
+    /* to create gap inbetween the inline block elements */       
+}
+
+.main_images{    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* gap: 10px; */
+    column-gap: 10px;   
+
+}
+.main_images div p{
+    text-align: center;
+}
+#text1{
+    font-size:18px;
+}
+#text2{
+    color:darkgoldenrod;
+    font-weight:bold;
+    font-size: 15px;
+}
+#text3{
+    font-size:14px;
+}
+
+
+/* .banner{
+    overflow: hidden;
+    position: relative;
+}
+.bg_image{
+    opacity: 0.6;
+    display: block;
+    position: absolute;
+    /* left: 0;
+    top:0; */
+    /* width:100%;
+    height:400px;
+    background-position-x: 50% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    } */
+
+/* banner images */
+.banner{
+    padding:30px 0 0 30px;
+    background-image: url(index-images/banner.jpg);
+    width: 100%;
+    height:250px;
+    background-position-y: 300px;
+    background-size: cover;
+    opacity: 0.8;
+}
+.content{
+    color:black;
+}
+
+.content #line1{
+    font-size: 25px;
+}
+.content #line2{
+    font-size: 17px;
+}
+.content #line3{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.content #line4{
+    font-size: 12px;
+    font-style: normal;
+} 
+
+   
+   
+    /* background-color: rgba(67, 66, 66,0.6); */
+
+
+
+
+/* footer styling starts */ 
+footer {
+    background-color: rgb(198, 197, 197);
+    position: relative;
+    width:100%;
+    padding: 10px;       
+}
+footer h2{
+    text-align: center;
+    font-weight: normal;
+    font-size: 28px;
+}
+.container{
+    max-width: 1000px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.col{
+   
+    min-width: 200px;
+    padding:0 10px;
+}
+.col ul li{
+    text-decoration:none;
+    list-style-type: none;
+    padding: 5px;
+}
+.col .logo{
+    position: relative;
+    right: 80px;    
+  
+}
+.col p{
+    display: flex;
+    position: relative;
+    bottom: 70px;
+}

@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding:0;
+    min-height: 100px;
+    min-width: 100px;
+    box-sizing:border-box;
+    font-family: 'Cambria, Cochin, Georgia, Times, 'Times New Roman', serif';
+    background-color: rgba(228, 228, 228, 0.982);
+    overflow-x: hidden;
+   
+   
+}
+/* navbar */
+.navbar{   
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 1px;
+    height:100px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar ul li{
+    padding: 5px 10px;
+    display: inline-block;
+    position:relative;
+}
+
+.navbar ul li a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.navbar ul li a:hover{
+    background-color: whitesmoke;
+}
+#header #cart{
+    position:relative; 
+    bottom:30px;
+}
+#header #logo{
+   position: relative;
+   bottom:10px;
+}
+/* breadcrumbs */
+.breadcrumbs li a{
+    text-decoration: none;
+   color: black;
+}
+.breadcrumbs{
+    padding: 10px 15px;
+    list-style-type: none;
+    font-size: 18px;
+    margin-left: 50px;
+}
+.breadcrumbs li{
+    display: inline;
+}
+.breadcrumbs a:hover{
+    background-color: bisque;
+    color: darkred;
+}
+.breadcrumbs li #one{
+    color:grey
+}
+
+/* main page */
+.main{
+    border:1px solid transparent;
+    margin:20px;
+    padding:20px
+    }
+    .main .first{
+        border:1px solid white ;
+        background-color: whitesmoke;
+        width:700px;
+        padding: 10px;
+        margin-left: 70px;
+    }
+    .main .first #row1{
+        display:grid;
+        grid-template-columns: repeat(4,1fr); 
+    }
+    .main .first #row2{
+        display:grid;
+        grid-template-columns: repeat(4,1fr); 
+    }
+    .main .first div img{
+        position:relative;
+        top:40px;
+        left:40px;
+    }
+    .main .first div button{
+        padding:5px;
+        width:80px;
+    }
+
+
+    .main .second{
+        position:relative;
+        left:900px;
+        bottom:375px;
+        right: 50px;
+        border: 1px solid white;
+        background-color: whitesmoke;
+        width:400px;
+        margin-top: 40px;
+        height:300px;
+        padding:10px;
+    }
+    .main .second h3 {
+        text-align: right;
+    
+    }
+    .main .second p{
+        position: relative;
+        /* left:60px; */
+        text-align:right;
+    }
+    
+    .main .second h6{
+        font-size: 18px;
+    }
+    .main .second h5{
+        font-weight: lighter;
+        font-size: 20px;
+        text-align:right;
+    }
+    
+    /* button */
+    .button button{
+        display:inline;
+       position:relative;
+       top:50px;
+       right:200px;
+       border:1px solid black;
+       border-radius: 30px;
+       width:200px;
+       text-align: center;
+       height:50px;
+       padding:10px;
+       background-color: black;
+       color: white;
+    }
+
+
+    /* footer styling starts */ 
+footer {
+    background-color: rgb(198, 197, 197);
+    position: relative;
+    bottom:180px;
+    width:100%;
+    padding: 10px;
+    /* top: 30px;       */
+}
+ footer h2{
+    text-align: center;
+    font-weight: normal;
+    font-size: 28px;
+}
+.container1{
+    max-width: 1000px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+ }
+.col{
+   
+    min-width:160px;
+    padding:0 10px;
+}
+.col ul li{
+    text-decoration:none;
+    list-style-type: none;
+    padding: 5px;
+}
+.col ul{
+    min-width:250px;
+}
+.col .logo{
+    position: relative;
+    right: 110px;    
+  
+}
+.col p{
+    display: flex;
+    position: relative;
+    bottom: 60px;
+} 
